@@ -17,14 +17,14 @@
       - [x] H1
       - [x] H2
       - [x] H3
-      - [ ] Label
-        - [ ] Medium
-        - [ ] Small
-    - [ ] Icon Small
-    - [ ] Icon Large
+    - [x] Icon Small
+    - [x] Icon Large
     - [ ] Tag
     - [x] Button
     - [ ] Forms
+      - [ ] Label
+        - [ ] Medium
+        - [ ] Small
       - [ ] Checkbox
       - [ ] Input field
     - [ ] CompanyLogo
@@ -44,9 +44,11 @@
     - [ ] Page
 
 - [ ] Assemble pages
+- [ ] Fix all project linting errors
 - [ ] Add visual regression tests
 - [ ] Add Storybook Accessibility extension
 - [ ] Remove FontAwesome dependency, in favor of explicit Icon component
       **Why remove FontAwesome?**
   1. Performance: FontAwesome comes with hundreds of icons most of which will be unusued (wasted file size)
   2. A smaller prescriptive icon set is more useful than a large icon set without any guidance.
+- [ ] Move test script from component library package to root.
