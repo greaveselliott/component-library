@@ -1,0 +1,23 @@
+@import '../../global';
+
+$link-font-family: $global-font-family-body;
+$link-font-weight: $global-font-weight-400;
+$link-font-size: $global-font-size-400;
+$link-color: $global-color-primary-400;
+$link-line-height: $global-line-height-400;
+
+.link {
+  color: $link-color;
+  font-family: $link-font-family;
+  font-size: $link-font-size;
+  font-weight: $link-font-weight;
+  line-height: $link-line-height;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  @include accessibility-focus-outline;
+}

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading one should render correctly 1`] = `
+<h4
+  className="heading-four"
+>
+  abc
+</h4>
+`;

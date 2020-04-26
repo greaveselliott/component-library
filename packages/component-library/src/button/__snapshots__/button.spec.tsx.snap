@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button can be disabled 1`] = `
+<button
+  className="button button--primary button--default"
+  disabled={true}
+/>
+`;
+
+exports[`Button can render children 1`] = `
+<button
+  className="button button--primary button--default"
+  disabled={true}
+>
+  abc
+</button>
+`;
+
+exports[`Button renders a button elemement as default 1`] = `
+<button
+  className="button button--primary button--default"
+/>
+`;
+
+exports[`Button renders a link as expected 1`] = `
+<a
+  className="button button--secondary button--default"
+/>
+`;
+
+exports[`Button renders an anchor tag if given a href 1`] = `
+<a
+  className="button button--primary button--default"
+/>
+`;
+
+exports[`Button renders as expected 1`] = `
+<button
+  className="button button--secondary button--round button--round--small"
+/>
+`;

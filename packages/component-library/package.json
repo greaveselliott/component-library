@@ -1,0 +1,41 @@
+{
+  "name": "@elliott/component-library",
+  "version": "1.0.0",
+  "main": "src/index",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "storybook": "start-storybook -p 8086 -c .storybook",
+    "build-storybook": "build-storybook -c .storybook -o dist",
+    "clean": "rm -rf ./dist && rm -rf tsconfig.tsbuildinfo",
+    "compile": "npx tsc -b tsconfig.json",
+    "lint": "npx eslint ./ --config '../../.eslintrc' --ignore-path '../../.eslintignore' --ext '.ts,.tsx'",
+    "test:unit": "npx jest --passWithNoTests --verbose --config=../../jest.config.js"
+  },
+  "devDependencies": {
+    "@storybook/react": "^5.2.3",
+    "@types/enzyme": "^3.10.3",
+    "@types/jest": "^24.0.20",
+    "@types/react": "^16.9.5",
+    "@types/react-dom": "^16.9.1",
+    "@types/sass": "^1.16.0",
+    "@types/storybook__react": "^4.0.2",
+    "awesome-typescript-loader": "^5.2.1",
+    "css-loader": "^3.2.0",
+    "enzyme": "^3.10.0",
+    "jest": "^25.4.0",
+    "node-sass": "^4.12.0",
+    "react-docgen-typescript-loader": "^3.3.0",
+    "react-docgen-typescript-webpack-plugin": "^1.1.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "@types/classnames": "^2.2.9",
+    "classnames": "^2.2.6",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  },
+  "license": "none"
+}
