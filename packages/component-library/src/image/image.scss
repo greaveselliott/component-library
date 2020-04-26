@@ -1,0 +1,17 @@
+@import '../global/global-variables.scss';
+
+.image {
+  display: block;
+  width: rem-calc(32);
+  height: rem-calc(32);
+
+  &--is-round {
+    border-radius: rem-calc(16);
+    overflow: hidden;
+  }
+
+  &__tag {
+    width: rem-calc(32);
+    height: rem-calc(32);
+  }
+}
