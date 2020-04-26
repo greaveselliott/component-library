@@ -9,7 +9,7 @@ test('Renders card with contents,l', () => {
 
   expect(
     shallow(
-      <Card onClickControl={() => null}>
+      <Card onCardControlClick={() => null}>
         <MockComponentA />
         <MockComponentB />
       </Card>,
@@ -23,7 +23,7 @@ test('Control click event is handled.', () => {
   const MockComponentB = () => null;
 
   const SUT = shallow(
-    <Card onClickControl={spy}>
+    <Card onCardControlClick={spy}>
       <MockComponentA />
       <MockComponentB />
     </Card>,

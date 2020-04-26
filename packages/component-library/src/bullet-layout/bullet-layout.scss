@@ -3,6 +3,12 @@
 .bullet-layout {
   display: flex;
   flex-direction: row;
+  margin-bottom: $global-gutter-300;
+  white-space: nowrap;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 
   &__bullet-point {
     display: flex;
@@ -12,6 +18,8 @@
 
   &__content {
     display: flex;
-    align-items: center;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: center;
   }
 }
