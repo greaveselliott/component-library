@@ -23,7 +23,7 @@
     - [ ] Icon Small
     - [ ] Icon Large
     - [ ] Tag
-    - [ ] Button
+    - [x] Button
     - [ ] Forms
       - [ ] Checkbox
       - [ ] Input field
