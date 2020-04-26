@@ -15,16 +15,14 @@ const InputField: React.FC<InputFieldProps> = ({
   value,
   onChange,
 }) => (
-  <div className="checkbox">
-    <input
-      className="checkbox__input"
-      id={id}
-      name={name}
-      value={value}
-      type="checkbox"
-      onChange={onChange}
-    />
-  </div>
+  <input
+    className="checkbox"
+    id={id}
+    name={name}
+    value={value}
+    type="checkbox"
+    onChange={onChange}
+  />
 );
 
 export default InputField;

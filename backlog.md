@@ -31,9 +31,8 @@
 
   - [ ] Molecule
 
-    - [ ] Bullet Layout
+    - [x] Bullet Layout
     - [x] Search
-    - [ ] Navigation Item
 
   - [ ] Organism
     - [ ] Accordian

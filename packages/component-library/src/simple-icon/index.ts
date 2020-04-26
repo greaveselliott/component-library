@@ -1,1 +1,1 @@
-export { default as SimpleIcon } from './simple-icon.component.tsx';
+export { default as SimpleIcon } from './simple-icon.component';

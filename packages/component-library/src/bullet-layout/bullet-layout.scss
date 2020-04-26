@@ -1,0 +1,17 @@
+@import '../global/global-variables.scss';
+
+.bullet-layout {
+  display: flex;
+  flex-direction: row;
+
+  &__bullet-point {
+    display: flex;
+    align-items: center;
+    margin-right: $global-gutter-300;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+  }
+}
