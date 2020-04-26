@@ -13,18 +13,17 @@
 
   - [ ] Atoms
 
-    - [ ] Typography
+    - [x] Typography
       - [x] H1
       - [x] H2
       - [x] H3
+      - [x] Small
     - [x] Icon Small
     - [x] Icon Large
-    - [ ] Tag
+    - [x] Tag
     - [x] Button
     - [ ] Forms
       - [ ] Label
-        - [ ] Medium
-        - [ ] Small
       - [ ] Checkbox
       - [ ] Input field
     - [ ] CompanyLogo
