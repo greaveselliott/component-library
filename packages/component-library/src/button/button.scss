@@ -19,15 +19,15 @@ $button-disabled-border-color: $global-color-shade-200;
 $button-primary-text-color: $global-color-shade-100;
 $button-primary-background-color: $global-color-primary-400;
 $button-primary-border-color: $global-color-primary-400;
-$button-primary-hover-background-color: $global-color-primary-500;
-$button-primary-hover-border-color: $global-color-primary-500;
+$button-primary-hover-background-color: $global-color-primary-400;
+$button-primary-hover-border-color: $global-color-primary-400;
 
 .button {
   border-style: $button-border-style;
   border-width: $button-border-width;
   display: flex;
   justify-content: center;
-  font-weight: $global-font-weight-500;
+  font-weight: $global-font-weight-600;
   font-size: $button-font-size;
   line-height: $button-line-height;
   font-family: $button-font;

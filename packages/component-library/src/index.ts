@@ -8,4 +8,3 @@ export { default as H6 } from './typography/h6/h6.component.tsx';
 export {
   default as Paragraph
 } from './typography/paragraph/paragraph.component.tsx';
-export { default as Link } from './typography/link/link.component.tsx';

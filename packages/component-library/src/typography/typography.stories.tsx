@@ -7,7 +7,6 @@ import H4 from './h4/h4.component.tsx';
 import H5 from './h5/h5.component.tsx';
 import H6 from './h6/h6.component.tsx';
 import Paragraph from './paragraph/paragraph.component.tsx';
-import Link from './link/link.component.tsx';
 
 export default { title: 'Typography' };
 
@@ -25,15 +24,15 @@ export const Headings = () => (
 export const Body = () => (
   <>
     <Paragraph>
-      Pirates of the Caribbean: <Link>The Curse of the Black Pearl</Link> is a
-      2003 American fantasy swashbuckler film directed by Gore Verbinski and the
-      first film in the Pirates of the Caribbean film series. Produced by Walt
-      Disney Pictures and Jerry Bruckheimer, the film is based on Walt Disney's
-      Pirates of the Caribbean attraction at Disney theme parks.[3] The story
-      follows pirate Jack Sparrow (Johnny Depp) and blacksmith Will Turner
-      (Orlando Bloom) as they rescue the kidnapped Elizabeth Swann (Keira
-      Knightley) from the cursed crew of the Black Pearl, captained by Hector
-      Barbossa (Geoffrey Rush), who become undead skeletons at night.
+      Pirates of the Caribbean: The Curse of the Black Pearl is a 2003 American
+      fantasy swashbuckler film directed by Gore Verbinski and the first film in
+      the Pirates of the Caribbean film series. Produced by Walt Disney Pictures
+      and Jerry Bruckheimer, the film is based on Walt Disney's Pirates of the
+      Caribbean attraction at Disney theme parks.[3] The story follows pirate
+      Jack Sparrow (Johnny Depp) and blacksmith Will Turner (Orlando Bloom) as
+      they rescue the kidnapped Elizabeth Swann (Keira Knightley) from the
+      cursed crew of the Black Pearl, captained by Hector Barbossa (Geoffrey
+      Rush), who become undead skeletons at night.
     </Paragraph>
     <Paragraph>
       Jay Wolpert developed a script in 2001, and Stuart Beattie rewrote it in
@@ -63,13 +62,5 @@ export const Body = () => (
       released in 2006 and 2007. Two more sequels, On Stranger Tides and Dead
       Men Tell No Tales, were released in 2011 and 2017 respectively.
     </Paragraph>
-  </>
-);
-
-export const Links = () => (
-  <>
-    <Link href="#" title="A link">
-      A link to somewhere
-    </Link>
   </>
 );
