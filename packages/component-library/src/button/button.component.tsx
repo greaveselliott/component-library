@@ -9,12 +9,17 @@ export interface ButtonProps
   disabled?: boolean;
 }
 
-const Button: React.FC<ButtonProps> = ({ children, variant = 'primary' }) => (
+const Button: React.FC<ButtonProps> = ({
+  children,
+  variant = 'primary',
+  onClick,
+}) => (
   <button
     className={classNames({
       button: true,
-      [`button--${variant}`]: variant
+      [`button--${variant}`]: variant,
     })}
+    onClick={onClick}
   >
     {children}
   </button>

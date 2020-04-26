@@ -8,9 +8,12 @@ $global-font-weight-300: 300;
 
 $global-line-height-400: 1.6em;
 
+$global-border-radius-100: rem-calc(2);
 $global-border-radius-200: rem-calc(4);
 $global-border-radius-300: rem-calc(8);
-$global-border-width: rem-calc(2);
+
+$global-border-width-000: rem-calc(1);
+$global-border-width-100: rem-calc(2);
 
 $global-font-size-600: rem-calc(22);
 $global-font-size-500: rem-calc(18);

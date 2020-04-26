@@ -9,6 +9,7 @@ describe('Button', () => {
   it('is able to call a function on click', () => {
     const mockOnClickFunction = jest.fn();
     const button = shallow(<Button onClick={mockOnClickFunction}>ABC</Button>);
+
     button.simulate('click');
     expect(mockOnClickFunction).toHaveBeenCalled();
   });

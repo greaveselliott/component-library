@@ -1,0 +1,31 @@
+@import '../../global/global-variables.scss';
+
+$checkbox-dimension: rem-calc(12);
+
+.checkbox {
+  position: relative;
+
+  &__input {
+    margin: 0;
+    width: $checkbox-dimension;
+    height: $checkbox-dimension;
+    background: $global-color-shade-000;
+    border-style: solid;
+    border-width: $global-border-width-000;
+    border-color: $global-color-shade-100;
+    box-sizing: border-box;
+    border-radius: $global-border-radius-100;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+
+    &:checked {
+      background-color: $global-color-shade-200;
+      border-color: $global-color-shade-200;
+      color: white;
+      background-image: url('./img/check.svg');
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+}

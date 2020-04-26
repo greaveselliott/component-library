@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly 1`] = `
+<div
+  className="checkbox"
+>
+  <input
+    className="checkbox__input"
+    id="abc"
+    name="abc"
+    type="checkbox"
+    value="abc"
+  />
+</div>
+`;

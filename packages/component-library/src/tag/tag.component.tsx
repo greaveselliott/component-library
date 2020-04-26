@@ -2,8 +2,10 @@ import React from 'react';
 
 import './tag.scss';
 
+export type TagColors = 'primary-300' | 'shade-200';
+
 type TagProps = {
-  color: 'primary-300' | 'shade-200';
+  color: TagColors;
   children: string;
 };
 

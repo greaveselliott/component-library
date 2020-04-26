@@ -1,0 +1,10 @@
+@import '../global/global-variables.scss';
+
+.company-logo {
+  display: block;
+
+  &__image {
+    display: block;
+    height: rem-calc(24);
+  }
+}

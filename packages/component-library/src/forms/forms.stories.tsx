@@ -4,6 +4,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 import Label from './label/label.component';
 import InputField from './input-field/input-field.component';
+import Checkbox from './checkbox/checkbox.component';
 import { SimpleIcon } from '..';
 
 export default { title: 'Forms' };
@@ -17,6 +18,10 @@ export const FormInputField = () => (
     type="text"
     placeholder="Find a workflow"
   />
+);
+
+export const FormCheckbox = () => (
+  <Checkbox id="some-id" name="some-name" value="value" />
 );
 
 export const SearchField = () => (
