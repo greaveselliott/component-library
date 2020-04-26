@@ -5,6 +5,7 @@ exports[`Render the large accent-200 function () { return null; } icon 1`] = `
   className="simple-icon simple-icon--large simple-icon--color-accent-200"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -15,6 +16,7 @@ exports[`Render the large accent-200 function () { return null; } icon 2`] = `
   className="simple-icon simple-icon--large simple-icon--color-accent-200"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -25,6 +27,7 @@ exports[`Render the large accent-200 function () { return null; } icon 3`] = `
   className="simple-icon simple-icon--large simple-icon--color-accent-200"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -35,6 +38,7 @@ exports[`Render the large accent-300 function () { return null; } icon 1`] = `
   className="simple-icon simple-icon--large simple-icon--color-accent-300"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -45,6 +49,7 @@ exports[`Render the large accent-300 function () { return null; } icon 2`] = `
   className="simple-icon simple-icon--large simple-icon--color-accent-300"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -55,6 +60,7 @@ exports[`Render the large accent-300 function () { return null; } icon 3`] = `
   className="simple-icon simple-icon--large simple-icon--color-accent-300"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -65,6 +71,7 @@ exports[`Render the large accent-400 function () { return null; } icon 1`] = `
   className="simple-icon simple-icon--large simple-icon--color-accent-400"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -75,6 +82,7 @@ exports[`Render the large accent-400 function () { return null; } icon 2`] = `
   className="simple-icon simple-icon--large simple-icon--color-accent-400"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -85,6 +93,7 @@ exports[`Render the large accent-400 function () { return null; } icon 3`] = `
   className="simple-icon simple-icon--large simple-icon--color-accent-400"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -95,6 +104,7 @@ exports[`Render the large primary-400 function () { return null; } icon 1`] = `
   className="simple-icon simple-icon--large simple-icon--color-primary-400"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -105,6 +115,7 @@ exports[`Render the large primary-400 function () { return null; } icon 2`] = `
   className="simple-icon simple-icon--large simple-icon--color-primary-400"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -115,6 +126,7 @@ exports[`Render the large primary-400 function () { return null; } icon 3`] = `
   className="simple-icon simple-icon--large simple-icon--color-primary-400"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -125,6 +137,7 @@ exports[`Render the large shade-400 function () { return null; } icon 1`] = `
   className="simple-icon simple-icon--large simple-icon--color-shade-400"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -135,6 +148,7 @@ exports[`Render the large shade-400 function () { return null; } icon 2`] = `
   className="simple-icon simple-icon--large simple-icon--color-shade-400"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -145,6 +159,7 @@ exports[`Render the large shade-400 function () { return null; } icon 3`] = `
   className="simple-icon simple-icon--large simple-icon--color-shade-400"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -155,6 +170,7 @@ exports[`Render the small accent-200 function () { return null; } icon 1`] = `
   className="simple-icon simple-icon--small simple-icon--color-accent-200"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -165,6 +181,7 @@ exports[`Render the small accent-200 function () { return null; } icon 2`] = `
   className="simple-icon simple-icon--small simple-icon--color-accent-200"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -175,6 +192,7 @@ exports[`Render the small accent-200 function () { return null; } icon 3`] = `
   className="simple-icon simple-icon--small simple-icon--color-accent-200"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -185,6 +203,7 @@ exports[`Render the small accent-300 function () { return null; } icon 1`] = `
   className="simple-icon simple-icon--small simple-icon--color-accent-300"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -195,6 +214,7 @@ exports[`Render the small accent-300 function () { return null; } icon 2`] = `
   className="simple-icon simple-icon--small simple-icon--color-accent-300"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -205,6 +225,7 @@ exports[`Render the small accent-300 function () { return null; } icon 3`] = `
   className="simple-icon simple-icon--small simple-icon--color-accent-300"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -215,6 +236,7 @@ exports[`Render the small accent-400 function () { return null; } icon 1`] = `
   className="simple-icon simple-icon--small simple-icon--color-accent-400"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -225,6 +247,7 @@ exports[`Render the small accent-400 function () { return null; } icon 2`] = `
   className="simple-icon simple-icon--small simple-icon--color-accent-400"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -235,6 +258,7 @@ exports[`Render the small accent-400 function () { return null; } icon 3`] = `
   className="simple-icon simple-icon--small simple-icon--color-accent-400"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -245,6 +269,7 @@ exports[`Render the small primary-400 function () { return null; } icon 1`] = `
   className="simple-icon simple-icon--small simple-icon--color-primary-400"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -255,6 +280,7 @@ exports[`Render the small primary-400 function () { return null; } icon 2`] = `
   className="simple-icon simple-icon--small simple-icon--color-primary-400"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -265,6 +291,7 @@ exports[`Render the small primary-400 function () { return null; } icon 3`] = `
   className="simple-icon simple-icon--small simple-icon--color-primary-400"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -275,6 +302,7 @@ exports[`Render the small shade-400 function () { return null; } icon 1`] = `
   className="simple-icon simple-icon--small simple-icon--color-shade-400"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -285,6 +313,7 @@ exports[`Render the small shade-400 function () { return null; } icon 2`] = `
   className="simple-icon simple-icon--small simple-icon--color-shade-400"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>
@@ -295,6 +324,7 @@ exports[`Render the small shade-400 function () { return null; } icon 3`] = `
   className="simple-icon simple-icon--small simple-icon--color-shade-400"
 >
   <FontAwesomeIcon
+    aria-hidden={true}
     icon={[Function]}
   />
 </div>

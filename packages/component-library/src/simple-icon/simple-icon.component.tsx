@@ -22,12 +22,12 @@ type SimpleIconProps = {
 const SimpleIcon: React.FC<SimpleIconProps> = ({
   icon,
   variant = 'small',
-  color = 'shade-400'
+  color = 'shade-400',
 }) => (
   <div
     className={`simple-icon simple-icon--${variant} simple-icon--color-${color}`}
   >
-    <FontAwesomeIcon icon={icon} />
+    <FontAwesomeIcon aria-hidden icon={icon} />
   </div>
 );
 

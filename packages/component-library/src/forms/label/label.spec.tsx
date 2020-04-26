@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Label from './index';
+import Label from './label.component';
 
 test('Renders correctly', () =>
-  expect(shallow(<Label>ABC</Label>)).toMatchSnapshot());
+  expect(shallow(<Label>Label text</Label>)).toMatchSnapshot());
