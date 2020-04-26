@@ -1,0 +1,9 @@
+@import '../../global/global-variables.scss';
+
+.small {
+  color: $global-color-shade-300;
+  font-family: $global-font-family-body;
+  font-size: $global-font-size-300;
+  font-weight: $global-font-weight-300;
+  line-height: $global-font-size-300;
+}

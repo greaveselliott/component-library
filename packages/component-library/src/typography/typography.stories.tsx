@@ -1,9 +1,10 @@
 import React from 'react';
 
-import H1 from './h1/h1.component.tsx';
-import H2 from './h2/h2.component.tsx';
-import H3 from './h3/h3.component.tsx';
-import Paragraph from './paragraph/paragraph.component.tsx';
+import H1 from './h1/h1.component';
+import H2 from './h2/h2.component';
+import H3 from './h3/h3.component';
+import Paragraph from './paragraph/paragraph.component';
+import Small from './small/small.component';
 
 export default { title: 'Typography' };
 
@@ -58,3 +59,5 @@ export const Body = () => (
     </Paragraph>
   </>
 );
+
+export const BodySmall = () => <Small>A small caption</Small>;
