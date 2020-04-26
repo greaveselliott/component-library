@@ -11,7 +11,7 @@
 
 - [ ] Builds Components
 
-  - [ ] Atoms
+  - [x] Atoms
 
     - [x] Typography
       - [x] H1
@@ -22,12 +22,12 @@
     - [x] Icon Large
     - [x] Tag
     - [x] Button
-    - [ ] Forms
+    - [x] Forms
       - [x] Label
-      - [ ] Checkbox
+      - [x] Checkbox
       - [x] Input field
-    - [ ] CompanyLogo
-    - [ ] Image
+    - [x] CompanyLogo
+    - [x] Image
 
   - [ ] Molecule
 
