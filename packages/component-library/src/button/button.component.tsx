@@ -2,39 +2,22 @@ import React from 'react';
 import classNames from 'classnames';
 import './button.scss';
 
-export interface Props
-  extends React.ButtonHTMLAttributes<HTMLButtonElement | HTMLAnchorElement> {
-  shape?: 'default' | 'round';
-  variant?: 'primary' | 'secondary' | 'negative';
-  size?: 'large' | 'medium' | 'small';
+export interface ButtonProps
+  extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  variant?: 'primary';
   children?: React.ReactChild | React.ReactChild[];
   disabled?: boolean;
-  href?: string;
 }
 
-const Button: React.FC<Props> = ({
-  children,
-  variant = 'primary',
-  shape = 'default',
-  size,
-  href = '',
-  ...props
-}) => {
-  const Element = href ? 'a' : 'button';
-
-  return (
-    <Element
-      {...props}
-      className={classNames({
-        button: true,
-        [`button--${variant}`]: variant,
-        [`button--${shape}`]: shape,
-        [`button--round--${size}`]: size
-      })}
-    >
-      {children}
-    </Element>
-  );
-};
+const Button: React.FC<ButtonProps> = ({ children, variant = 'primary' }) => (
+  <button
+    className={classNames({
+      button: true,
+      [`button--${variant}`]: variant
+    })}
+  >
+    {children}
+  </button>
+);
 
 export default Button;
