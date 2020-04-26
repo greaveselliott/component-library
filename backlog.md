@@ -23,16 +23,16 @@
     - [x] Tag
     - [x] Button
     - [ ] Forms
-      - [ ] Label
+      - [x] Label
       - [ ] Checkbox
-      - [ ] Input field
+      - [x] Input field
     - [ ] CompanyLogo
     - [ ] Image
 
   - [ ] Molecule
 
     - [ ] Bullet Layout
-    - [ ] Search
+    - [x] Search
     - [ ] Navigation Item
 
   - [ ] Organism
