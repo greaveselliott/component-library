@@ -14,12 +14,12 @@
   - [ ] Atoms
 
     - [ ] Typography
-      - [ ] H1
-      - [ ] H2
-      - [ ] H3
-      - [ ] Label 1
-      - [ ] Label 2
-      - [ ] Label 3
+      - [x] H1
+      - [x] H2
+      - [x] H3
+      - [ ] Label
+        - [ ] Medium
+        - [ ] Small
     - [ ] Icon Small
     - [ ] Icon Large
     - [ ] Tag
