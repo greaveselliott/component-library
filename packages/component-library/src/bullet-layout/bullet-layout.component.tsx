@@ -3,7 +3,7 @@ import React from 'react';
 import './bullet-layout.scss';
 
 type BulletLayoutProps = {
-  BulletPoint: React.FC;
+  BulletPoint?: React.FC;
   children: React.ReactNode;
 };
 
@@ -12,7 +12,9 @@ const BulletLayout: React.FC<BulletLayoutProps> = ({
   children,
 }) => (
   <div className="bullet-layout">
-    <div className="bullet-layout__bullet-point">{<BulletPoint />}</div>
+    {BulletPoint && (
+      <div className="bullet-layout__bullet-point">{<BulletPoint />}</div>
+    )}
     <div className="bullet-layout__content">{children}</div>
   </div>
 );

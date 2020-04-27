@@ -9,3 +9,5 @@ export { BulletLayout } from './bullet-layout';
 export { Card } from './card';
 export { Accordion } from './accordion';
 export { Header } from './header';
+export { Navigation, NavigationLink } from './navigation';
+export { Sidebar } from './sidebar';

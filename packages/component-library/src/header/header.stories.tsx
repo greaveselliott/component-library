@@ -1,5 +1,4 @@
 import React from 'react';
-// import { faGlobeAmericas } from '@fortawesome/free-solid-svg-icons';
 
 import { H1, Button, Image, CompanyLogo } from '..';
 
