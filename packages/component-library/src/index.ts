@@ -4,5 +4,7 @@ export { SimpleIcon } from './simple-icon';
 export { Tag } from './tag';
 export { CompanyLogo } from './company-logo';
 export { InputField, Label, Checkbox } from './forms';
-export { BulletLayout } from './bullet-layout';
 export { Image } from './image';
+export { BulletLayout } from './bullet-layout';
+export { Card } from './card';
+export { Accordion } from './accordion';

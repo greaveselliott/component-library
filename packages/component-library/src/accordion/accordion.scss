@@ -1,0 +1,16 @@
+@import '../global';
+
+.accordion {
+  border-top-style: solid;
+  border-top-color: $global-color-shade-100;
+  border-top-width: rem-calc(1);
+  padding-top: $global-gutter-450;
+
+  &__title {
+    color: $global-color-shade-400;
+    font-family: $global-font-family-titles;
+    font-size: $global-font-size-400;
+    margin-bottom: $global-gutter-400;
+    cursor: pointer;
+  }
+}
