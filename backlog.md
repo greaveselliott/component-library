@@ -29,16 +29,16 @@
     - [x] CompanyLogo
     - [x] Image
 
-  - [ ] Molecule
+  - [x] Molecule
 
     - [x] Bullet Layout
     - [x] Search
 
   - [ ] Organism
-    - [ ] Accordian
+    - [x] Accordian
     - [ ] Sidebar
-    - [ ] Header
-    - [ ] Card
+    - [x] Header
+    - [x] Card
     - [ ] Page
 
 - [ ] Assemble pages

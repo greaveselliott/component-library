@@ -8,3 +8,4 @@ export { Image } from './image';
 export { BulletLayout } from './bullet-layout';
 export { Card } from './card';
 export { Accordion } from './accordion';
+export { Header } from './header';
