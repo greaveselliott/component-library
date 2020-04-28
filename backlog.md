@@ -36,12 +36,12 @@
 
   - [ ] Organism
     - [x] Accordian
-    - [ ] Sidebar
+    - [x] Sidebar
     - [x] Header
     - [x] Card
-    - [ ] Page
+    - [x] Page
 
-- [ ] Assemble pages
+- [x] Assemble page
 - [ ] Fix all project linting errors
 - [ ] Add visual regression tests
 - [ ] Add Storybook Accessibility extension
@@ -50,3 +50,7 @@
   1. Performance: FontAwesome comes with hundreds of icons most of which will be unusued (wasted file size)
   2. A smaller prescriptive icon set is more useful than a large icon set without any guidance.
 - [ ] Move test script from component library package to root.
+- [ ] Add component API documentation to story, using https://www.npmjs.com/package/@storybook/addon-docs
+- [ ] Use FontAwesome Pro icons instead of the free versions
+- [ ] Refactor AppShell and Document component
+- [ ] Add missing unit tests

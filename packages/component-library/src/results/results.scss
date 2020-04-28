@@ -1,0 +1,14 @@
+@import '../global/';
+
+.results {
+  width: 100%;
+  padding: $global-gutter-450;
+
+  &__list {
+    margin-top: $global-gutter-450;
+
+    > * {
+      margin-bottom: $global-gutter-400;
+    }
+  }
+}

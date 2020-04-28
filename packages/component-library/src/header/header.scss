@@ -6,10 +6,12 @@
   justify-content: space-between;
   align-items: center;
   height: rem-calc(80);
+  background-color: $global-color-shade-000;
 
   &--has-bottom-border {
     border-bottom-style: solid;
     border-bottom-color: $global-color-shade-150;
     border-bottom-width: $global-border-width-100;
+    padding: 0 rem-calc(48);
   }
 }
