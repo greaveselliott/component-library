@@ -54,3 +54,4 @@
 - [ ] Use FontAwesome Pro icons instead of the free versions
 - [ ] Refactor AppShell and Document component
 - [ ] Add missing unit tests
+- [ ] Clean up types, the hack, importing types directly from a file is breaking some of the unit tests.
