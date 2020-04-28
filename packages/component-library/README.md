@@ -1,11 +1,5 @@
-# `dive-log`
-
-> TODO: description
-
-## Usage
+# Run storybook
 
 ```
-const diveLog = require('dive-log');
-
-// TODO: DEMONSTRATE API
-```
+yarn workspace @elliott/component-library storybook
+``
