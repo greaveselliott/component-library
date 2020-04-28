@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders primary-300 tag 1`] = `
+<div
+  className="tag tag--color-primary-300"
+>
+  Abc
+</div>
+`;
+
+exports[`Renders shade-200 tag 1`] = `
+<div
+  className="tag tag--color-shade-200"
+>
+  Abc
+</div>
+`;

@@ -1,0 +1,35 @@
+@import '../global';
+
+.accordion {
+  border-top-style: solid;
+  border-top-color: $global-color-shade-100;
+  border-top-width: rem-calc(1);
+  padding-top: $global-gutter-450;
+  padding-bottom: $global-gutter-450;
+
+  &:first-of-type {
+    border-top: none;
+  }
+
+  &__title {
+    color: $global-color-shade-400;
+    font-family: $global-font-family-titles;
+    font-size: $global-font-size-400;
+    margin-bottom: $global-gutter-400;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    height: rem-calc(24);
+    cursor: pointer;
+
+    .accordion--is-closed & {
+      margin-bottom: 0;
+    }
+  }
+
+  &__region {
+    > * {
+      margin-bottom: $global-gutter-400;
+    }
+  }
+}

@@ -5,16 +5,17 @@ module.exports = {
   setupFilesAfterEnv: ['jest-enzyme', '<rootDir>/setupTests.ts'],
   testEnvironment: 'enzyme',
   testEnvironmentOptions: {
-    enzymeAdapter: 'react16'
+    enzymeAdapter: 'react16',
   },
   transform: {
     '\\.(ts|tsx)$': 'ts-jest',
-    '.+\\.scss$': 'jest-transform-css'
+    '.+\\.scss$': 'jest-transform-css',
+    '^.+\\.svg$': 'jest-svg-transformer',
   },
   setupFiles: ['raf/polyfill'],
   snapshotSerializers: ['enzyme-to-json/serializer'],
   testRegex: '.spec.(ts|tsx)$',
   moduleNameMapper: {
-    '.+\\.(css|less|sass|scss)$': 'jest-transform-css'
-  }
+    '.+\\.(css|less|sass|scss)$': 'jest-transform-css',
+  },
 };

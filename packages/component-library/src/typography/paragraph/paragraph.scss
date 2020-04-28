@@ -1,17 +1,8 @@
 @import '../../global/global-variables.scss';
 
-$paragraph-font-family: $global-font-family-body;
-$paragraph-font-weight: $global-font-weight-400;
-$paragraph-font-size: $global-font-size-400;
-$paragraph-color: $global-color-shade-500;
-$paragraph-line-height: $global-line-height-400;
-$paragraph-margin-bottom: $global-gutter-300;
-
 .paragraph {
-  color: $paragraph-color;
-  font-family: $paragraph-font-family;
-  font-size: $paragraph-font-size;
-  font-weight: $paragraph-font-weight;
-  line-height: $paragraph-line-height;
-  margin-bottom: $paragraph-margin-bottom;
+  color: $global-color-shade-500;
+  font-family: $global-font-family-body;
+  font-size: $global-font-size-400;
+  font-weight: $global-font-weight-300;
 }

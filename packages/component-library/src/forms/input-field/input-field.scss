@@ -1,0 +1,39 @@
+@import '../../global/global-variables.scss';
+
+$icon-width: rem-calc(32);
+
+.input-field {
+  position: relative;
+
+  &__icon {
+    position: absolute;
+    height: rem-calc(46);
+    width: rem-calc(50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    pointer-events: none;
+  }
+
+  &__field {
+    height: rem-calc(48);
+    border-radius: $global-border-radius-300;
+    width: 100%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: $global-border-width-100;
+    border-color: $global-color-shade-100;
+    cursor: text;
+    background-color: $global-color-shade-000;
+    color: $global-color-shade-400;
+    font-size: $global-font-size-300;
+    font-weight: $global-font-weight-600;
+    padding-left: $global-gutter-400;
+    padding-right: $global-gutter-400;
+
+    &--with-icon {
+      text-indent: $icon-width;
+    }
+  }
+}

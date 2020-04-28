@@ -3,21 +3,21 @@ module.exports = ({ config }) => {
     test: /\.(ts|tsx)$/,
     use: [
       {
-        loader: require.resolve('ts-loader')
+        loader: require.resolve('ts-loader'),
       },
       {
-        loader: require.resolve('react-docgen-typescript-loader')
-      }
+        loader: require.resolve('react-docgen-typescript-loader'),
+      },
     ],
-    exclude: '/**/*.spec.tsx'
+    exclude: '/**/*.spec.tsx',
   });
 
   config.module.rules.push({
     test: /\.scss$/,
-    loaders: ['style-loader', 'css-loader', 'sass-loader']
+    loaders: ['style-loader', 'css-loader', 'sass-loader'],
   });
 
-  config.resolve.extensions.push('.stories.ts', '.stories.tsx');
+  config.resolve.extensions.push('.ts', '.tsx');
 
   config.i;
 

@@ -1,0 +1,23 @@
+@import '../global';
+
+.tag {
+  color: $global-color-shade-000;
+  font-size: $global-font-size-200;
+  border-radius: $global-border-radius-200;
+  font-family: $global-font-family-body;
+  font-weight: $global-font-weight-600;
+  display: inline-flex;
+  align-items: center;
+  padding-left: rem-calc(5);
+  padding-right: rem-calc(5);
+  height: rem-calc(16);
+
+  &--color {
+    &-primary-300 {
+      background-color: $global-color-primary-300;
+    }
+    &-shade-200 {
+      background-color: $global-color-shade-200;
+    }
+  }
+}

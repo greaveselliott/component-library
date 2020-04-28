@@ -1,0 +1,50 @@
+@import '../global/global-variables.scss';
+
+$control-dimensions: rem-calc(48);
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: $global-border-radius-200;
+  border-color: $global-color-shade-150;
+  border-width: $global-border-width-100;
+  border-style: solid;
+  min-height: rem-calc(72);
+  padding-left: $global-gutter-400;
+  padding-right: $global-gutter-400;
+
+  &__content {
+    max-width: calc(100% - #{$control-dimensions});
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__control {
+    &-button {
+      cursor: pointer;
+      border: none;
+      background-color: transparent;
+      border-radius: rem-calc(100);
+      padding: 0;
+      text-align: center;
+      height: $control-dimensions;
+      width: $control-dimensions;
+      margin-right: -#{rem-calc(8)};
+      transition: background-color 200ms ease-out;
+
+      &:hover {
+        background-color: $global-color-shade-100;
+      }
+
+      &-label {
+        // Keep this label visible for screen readers
+        visibility: hidden;
+        width: 0;
+        display: block;
+        margin: 0;
+        height: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@import '../global';
+
+.simple-icon {
+  display: inline-block;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  &--small {
+    height: rem-calc(12);
+    width: rem-calc(12);
+    font-size: rem-calc(12);
+  }
+
+  &--large {
+    height: rem-calc(20);
+    width: rem-calc(20);
+    font-size: rem-calc(18);
+  }
+
+  &--color {
+    &-primary-400 {
+      color: $global-color-primary-400;
+    }
+    &-shade-400 {
+      color: $global-color-shade-400;
+    }
+    &-accent-200 {
+      color: $global-color-accent-200;
+    }
+    &-accent-300 {
+      color: $global-color-accent-300;
+    }
+    &-accent-400 {
+      color: $global-color-accent-400;
+    }
+  }
+}

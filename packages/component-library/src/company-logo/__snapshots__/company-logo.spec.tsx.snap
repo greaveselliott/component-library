@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly 1`] = `
+<a
+  className="company-logo"
+  href="/"
+  title="A descriptive title"
+>
+  <img
+    alt="The company logo"
+    className="company-logo__image"
+    src={[Function]}
+  />
+</a>
+`;

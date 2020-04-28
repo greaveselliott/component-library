@@ -1,0 +1,10 @@
+@import '../../global/global-variables.scss';
+
+.label {
+  font-family: $global-font-family-body;
+  font-size: $global-font-size-200;
+  line-height: $global-font-size-200;
+  color: $global-color-shade-500;
+  font-weight: $global-font-weight-600;
+  cursor: pointer;
+}

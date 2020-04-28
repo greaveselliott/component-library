@@ -1,48 +1,32 @@
 @import '../global';
 
 $button-font: $global-font-family-titles;
-$button-font-size: rem-calc(14);
-$button-line-height: rem-calc(18);
+$button-font-size: $global-font-size-300;
+$button-line-height: $global-font-size-300;
 $button-border-style: solid;
 $button-border-width: rem-calc(1);
 $button-margin-bottom: $global-gutter-300;
 
-$button-defualt-padding: rem-calc(10) rem-calc(14);
-$button-default-border-radius: rem-calc(50);
-$button-default-width: 100%;
-$button-default-height: rem-calc(40);
+$button-padding: rem-calc(10) rem-calc(14);
+$button-border-radius: $global-border-radius-200;
+$button-height: rem-calc(40);
 
 $button-disabled-background-color: $global-color-shade-200;
 $button-disabled-text-color: $global-color-shade-400;
 $button-disabled-border-color: $global-color-shade-200;
 
-$button-primary-text-color: $global-color-shade-100;
+$button-primary-text-color: $global-color-shade-000;
 $button-primary-background-color: $global-color-primary-400;
 $button-primary-border-color: $global-color-primary-400;
-$button-primary-hover-background-color: $global-color-primary-500;
-$button-primary-hover-border-color: $global-color-primary-500;
-
-$button-secondary-text-color: $global-color-primary-400;
-$button-secondary-hover-background-color: $global-color-primary-300;
-$button-secondary-hover-border-color: $global-color-primary-400;
-$button-secondary-hover-text-color: $global-color-shade-400;
-
-$button-negative-border-color: $global-color-secondary-400;
-$button-negative-text-color: $global-color-secondary-400;
-$button-negative-hover-color: $global-color-shade-500;
-$button-negative-hover-border-color: $global-color-secondary-400;
-$button-negative-hover-background-color: $global-color-secondary-300;
-
-$button-round-small-size: rem-calc(30);
-$button-round-medium-size: rem-calc(52);
-$button-round-large-size: rem-calc(70);
+$button-primary-hover-background-color: $global-color-primary-300;
+$button-primary-hover-border-color: $global-color-primary-300;
 
 .button {
   border-style: $button-border-style;
   border-width: $button-border-width;
-  display: flex;
+  display: table;
   justify-content: center;
-  font-weight: $global-font-weight-500;
+  font-weight: $global-font-weight-600;
   font-size: $button-font-size;
   line-height: $button-line-height;
   font-family: $button-font;
@@ -51,8 +35,9 @@ $button-round-large-size: rem-calc(70);
   box-sizing: border-box;
   margin-bottom: $button-margin-bottom;
   transition: background-color 120ms ease-in, box-shadow 120ms ease-in;
-
-  @include accessibility-focus-outline;
+  padding: $button-padding;
+  border-radius: $button-border-radius;
+  height: $button-height;
 
   &:last-child {
     margin-bottom: 0;
@@ -76,62 +61,6 @@ $button-round-large-size: rem-calc(70);
         background-color: $button-primary-hover-background-color;
         border-color: $button-primary-hover-border-color;
       }
-    }
-  }
-
-  &--secondary {
-    border-color: $button-primary-border-color;
-    color: $button-secondary-text-color;
-
-    &:hover,
-    &:focus {
-      &:not([disabled]) {
-        background-color: $button-secondary-hover-background-color;
-        color: $button-secondary-hover-text-color;
-        border-color: $button-secondary-hover-border-color;
-        box-shadow: inset-shadow($global-color-primary-350);
-      }
-    }
-  }
-
-  &--default {
-    padding: $button-defualt-padding;
-    border-radius: $button-default-border-radius;
-    width: $button-default-width;
-    height: $button-default-height;
-  }
-
-  &--negative {
-    border-color: $button-negative-border-color;
-    color: $button-negative-text-color;
-
-    &:hover,
-    &:focus {
-      &:not([disabled]) {
-        color: $button-negative-hover-color;
-        background-color: $button-negative-hover-background-color;
-        border-color: $button-negative-hover-border-color;
-        box-shadow: inset-shadow($global-color-secondary-350);
-      }
-    }
-  }
-
-  &--round {
-    border-radius: 50%;
-
-    &--small {
-      height: $button-round-small-size;
-      width: $button-round-small-size;
-    }
-
-    &--medium {
-      height: $button-round-medium-size;
-      width: $button-round-medium-size;
-    }
-
-    &--large {
-      height: $button-round-large-size;
-      width: $button-round-large-size;
     }
   }
 }

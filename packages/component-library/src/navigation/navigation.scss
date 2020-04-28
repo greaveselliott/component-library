@@ -1,0 +1,24 @@
+@import '../global/';
+
+.navigation-link {
+  display: flex;
+  height: rem-calc(40);
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: $global-gutter-300;
+  border-radius: $global-border-radius-300;
+  padding-left: $global-gutter-400;
+  padding-right: $global-gutter-400;
+  margin-left: -#{$global-gutter-300};
+  text-decoration: none;
+
+  &:hover {
+    background-color: $global-color-shade-100;
+
+    /* Todo: find a better way to inherit this style */
+    .simple-icon,
+    .paragraph {
+      color: $global-color-primary-400;
+    }
+  }
+}

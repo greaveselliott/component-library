@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render 1`] = `
+<div
+  className="input-field"
+>
+  <input
+    className="input-field__field"
+    id="abc"
+    name="abc"
+    placeholder="abc"
+    type="text"
+  />
+</div>
+`;
+
+exports[`should render with an icon 1`] = `
+<div
+  className="input-field"
+>
+  <div
+    className="input-field__icon"
+  >
+    <Icon />
+  </div>
+  <input
+    className="input-field__field input-field__field--with-icon"
+    id="abc"
+    name="abc"
+    placeholder="abc"
+    type="text"
+  />
+</div>
+`;
+
+exports[`should render with email type 1`] = `
+<div
+  className="input-field"
+>
+  <input
+    className="input-field__field"
+    id="abc"
+    name="abc"
+    placeholder="abc"
+    type="email"
+  />
+</div>
+`;
+
+exports[`should render with password type 1`] = `
+<div
+  className="input-field"
+>
+  <input
+    className="input-field__field"
+    id="abc"
+    name="abc"
+    placeholder="abc"
+    type="password"
+  />
+</div>
+`;
