@@ -4,7 +4,6 @@ import { faGlobeAmericas } from '@fortawesome/free-solid-svg-icons';
 import { SimpleIcon, H3, Small, Tag, BulletLayout, Image } from '..';
 
 import PngSampleOne from '../image/img/sample-1.png';
-// import PngSampleTwo from '../image/img/sample-2';
 
 import Card from './card.component';
 

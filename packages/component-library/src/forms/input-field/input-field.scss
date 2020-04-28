@@ -4,6 +4,7 @@ $icon-width: rem-calc(32);
 
 .input-field {
   position: relative;
+
   &__icon {
     position: absolute;
     height: rem-calc(46);
@@ -12,7 +13,9 @@ $icon-width: rem-calc(32);
     align-items: center;
     justify-content: center;
     bottom: 0;
+    pointer-events: none;
   }
+
   &__field {
     height: rem-calc(48);
     border-radius: $global-border-radius-300;
@@ -30,7 +33,7 @@ $icon-width: rem-calc(32);
     padding-right: $global-gutter-400;
 
     &--with-icon {
-      padding-left: calc(#{$icon-width} + #{$global-gutter-400});
+      text-indent: $icon-width;
     }
   }
 }

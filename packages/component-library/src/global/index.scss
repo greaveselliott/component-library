@@ -3,3 +3,7 @@
 @import './global-variables.scss';
 @import './global-mixins.scss';
 @import './global-functions.scss';
+
+* {
+  @include accessibility-focus-outline;
+}

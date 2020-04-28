@@ -3,6 +3,9 @@
 .simple-icon {
   display: inline-block;
   text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 
   &--small {
     height: rem-calc(12);

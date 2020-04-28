@@ -9,7 +9,8 @@ $checkbox-dimension: rem-calc(12);
   background: $global-color-shade-000;
   border-style: solid;
   border-width: $global-border-width-000;
-  border-color: $global-color-shade-100;
+  // I chose a darker border color because the border in the design is too low contrast.
+  border-color: $global-color-shade-200;
   box-sizing: border-box;
   border-radius: $global-border-radius-100;
   -webkit-appearance: none;

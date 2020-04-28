@@ -13,11 +13,11 @@ export type SimpleIconColours =
 
 export type SimpleIconVariant = 'small' | 'large';
 
-type SimpleIconProps = {
+export interface SimpleIconProps {
   variant?: SimpleIconVariant;
   icon: IconProp;
   color?: SimpleIconColours;
-};
+}
 
 const SimpleIcon: React.FC<SimpleIconProps> = ({
   icon,
