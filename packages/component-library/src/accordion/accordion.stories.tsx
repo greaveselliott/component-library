@@ -1,35 +1,32 @@
 import React from 'react';
-import { faExclamationCircle } from '@fortawesome/free-solid-svg-icons';
+import {
+  faExclamationCircle,
+  faStopCircle,
+  faPlayCircle,
+} from '@fortawesome/free-solid-svg-icons';
 
-import { SimpleIcon, Checkbox, Label, BulletLayout } from '..';
+import { Filter } from '..';
 
 import Accordion from './accordian.component';
 
 export default { title: 'Accordion layout' };
 
-const ExampleFilterOption = ({ label }: { label: string }) => (
-  <BulletLayout
-    BulletPoint={() => <Checkbox id={label} name="filters" value="true" />}
-  >
-    <BulletLayout
-      BulletPoint={() => (
-        <SimpleIcon
-          color="shade-400"
-          icon={faExclamationCircle}
-          variant="small"
-        />
-      )}
-    >
-      <Label htmlFor={label}>{label}</Label>
-    </BulletLayout>
-  </BulletLayout>
-);
-
 export const FilterCategory = () => (
-  <Accordion title="Filter group">
-    <ExampleFilterOption label="Filter one" />
-    <ExampleFilterOption label="Filter two" />
-    <ExampleFilterOption label="Filter three" />
-    <ExampleFilterOption label="Filter four" />
-  </Accordion>
+  <>
+    <Accordion title="Filter group 1">
+      <Filter icon={faExclamationCircle} color="shade-400" name="filter-1" />
+      <Filter icon={faPlayCircle} color="accent-300" name="filter-2" />
+      <Filter icon={faStopCircle} color="accent-400" name="filter-3" />
+    </Accordion>
+    <Accordion title="Filter group 2">
+      <Filter icon={faExclamationCircle} color="shade-400" name="Filter-4" />
+      <Filter icon={faPlayCircle} color="accent-300" name="Filter-5" />
+      <Filter icon={faStopCircle} color="accent-400" name="Filter-6" />
+    </Accordion>
+    <Accordion title="Filter group 3">
+      <Filter icon={faExclamationCircle} color="shade-400" name="filter-7" />
+      <Filter icon={faPlayCircle} color="accent-300" name="filter-8" />
+      <Filter icon={faStopCircle} color="accent-400" name="filter-9" />
+    </Accordion>
+  </>
 );

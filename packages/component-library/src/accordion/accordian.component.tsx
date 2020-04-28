@@ -1,4 +1,8 @@
 import React, { useState } from 'react';
+import classnames from 'classnames';
+import { faCaretDown, faCaretUp } from '@fortawesome/free-solid-svg-icons';
+
+import { BulletLayout, SimpleIcon } from '..';
 
 import './accordion.scss';
 
@@ -10,18 +14,34 @@ const Accordion: React.FC<AccordionProps> = ({ children, title }) => {
   const [isAccordionOpen, toggleAccordion] = useState(true);
 
   return (
-    <div className="accordion">
-      <fieldset>
-        <legend
-          role="button"
-          className="accordion__title"
-          aria-control={title}
-          onClick={() => toggleAccordion(!isAccordionOpen)}
+    <div
+      className={classnames('accordion', {
+        'accordion--is-closed': !isAccordionOpen,
+      })}
+    >
+      <button
+        className="accordion__title"
+        id={`accordion-${title}`}
+        aria-controls={`accordion-region-${title}`}
+        onClick={() => toggleAccordion(!isAccordionOpen)}
+      >
+        <BulletLayout
+          BulletPoint={() => (
+            <SimpleIcon icon={isAccordionOpen ? faCaretDown : faCaretUp} />
+          )}
         >
           {title}
-        </legend>
-        <div id={title}>{isAccordionOpen && children}</div>
-      </fieldset>
+        </BulletLayout>
+      </button>
+      <div
+        role="region"
+        id={`accordion-region-${title}`}
+        aria-expanded={isAccordionOpen}
+        aria-labelledby={`accordion-${title}`}
+        className="accordion__region"
+      >
+        {isAccordionOpen && children}
+      </div>
     </div>
   );
 };
